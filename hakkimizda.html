@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda – İlyas İnşaat A.Ş.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1100px;
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+        .hero {
+            background: linear-gradient(90deg, rgba(52,58,64,0.9), rgba(33,37,41,0.6)), url('https://images.unsplash.com/photo-1509395176047-4a66953fd231?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+            color: #fff;
+            padding: 60px 0;
+            border-radius: 6px;
+            margin-bottom: 30px;
+        }
+        .section {
+            background: #fff;
+            padding: 24px;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+            margin-bottom: 20px;
+        }
+        .section h3 { margin-top: 0; }
+        .icon { font-size: 22px; margin-right: 8px; color: #0d6efd; }
+        .projects-table th, .projects-table td { vertical-align: middle; }
+        .timeline { list-style: none; padding-left: 0; }
+        .timeline li { position: relative; padding-left: 36px; margin-bottom: 18px; }
+        .timeline li:before { content: '0e7'; font-family: 'Font Awesome 6 Free'; font-weight: 900; position: absolute; left: 0; top: 0; color: #0d6efd; }
+        .gallery img { width: 100%; height: auto; border-radius: 6px; }
+        footer.footer { background-color: #343a40; color: #fff; padding: 30px 20px; text-align: center; }
+        .badge-custom { background: linear-gradient(90deg,#0d6efd,#6610f2); color: #fff; }
+		        .footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">İlyas İnşaat A.Ş.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="hakkimizda.html">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hizmetler.html">Hizmetler</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projeler.html">Projeler</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="hero text-center">
+        <h1 class="display-6">İlyas İnşaat A.Ş.</h1>
+        <p class="lead"></p>
+        <span class="badge badge-custom">Güven · Kalite · Sürdürülebilirlik</span>
+    </div>
+
+    <!-- SECTION: Özet -->
+    <section class="section" id="ozet">
+        <h3><i class="bi bi-building icon"></i> Özet</h3>
+        <p>
+            İlyas İnşaat A.Ş. olarak, müşteri odaklı inşaat çözümleri sunarak her projeyi zamanında ve kaliteli bir şekilde teslim etmeyi taahhüt ediyoruz. Modern ve sürdürülebilir yapılar inşa ediyor, enerjiyi verimli kullanıyoruz. 1990'dan bu yana sektörde edindiğimiz deneyimle, her türlü konut inşaatı, yenileme ve tadilat projelerinde en iyi sonuçları elde etmek için çalışıyoruz.
+        </p>
+    </section>
+
+    <!-- SECTION: Kurumsal Kimlik -->
+    <section class="section" id="kurumsal-kimlik">
+        <h3><i class="fas fa-id-badge icon"></i> Kurumsal Kimlik</h3>
+        <p>
+            İlyas İnşaat A.Ş., kuruluşundan itibaren güven, kalite ve yenilik prensipleriyle hareket eden bir şirket kültürüne sahiptir. İş etiği, şeffaflık ve müşteri memnuniyeti tüm karar süreçlerimizin merkezinde yer alır. Kurum kimliğimizi oluşturan temel unsurlar; sürdürülebilirlik, teknolojik yeterlilik, yerel ve uluslararası standartlara uyum, ve güçlü mühendislik yetkinlikleridir.
+        </p>
+        <div class="row mt-3">
+            <div class="col-md-4 text-center">
+                <i class="fas fa-handshake icon fa-2x"></i>
+                <h5>Güvenilirlik</h5>
+                <p>Projelerimizi zamanında ve taahhüt edilen kalitede teslim ederiz.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-leaf icon fa-2x"></i>
+                <h5>Sürdürülebilirlik</h5>
+                <p>Çevre dostu malzeme ve enerji verimli çözümler kullanırız.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-tools icon fa-2x"></i>
+                <h5>Teknoloji</h5>
+                <p>BIM, 3D modelleme ve akıllı bina teknolojileri ile üretiriz.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Tarihçe ve Kilometre Taşları -->
+    <section class="section" id="tarihce">
+        <h3><i class="bi bi-clock-history icon"></i> Tarihçe ve Kilometre Taşları</h3>
+        <ul class="timeline">
+            <li><strong>1990:</strong> İlyas İnşaat A.Ş. kuruluşu; ilk konut projelerinin tamamlanması.</li>
+            <li><strong>2000:</strong> Yenileme ve tadilat alanına giriş; kentsel dönüşüm projelerinde deneyim kazanma.</li>
+            <li><strong>2010:</strong> Teknolojik yatırımlar: BIM, Revit, 3D modelleme süreçlerinin hayata geçirilmesi.</li>
+            <li><strong>2018:</strong> Enerji verimliliği ve sürdürülebilir bina yaklaşımlarının standartlaştırılması.</li>
+            <li><strong>2023–2025:</strong> Büyük ölçekli rezidans, villa projeleri ve endüstriyel tesis teslimatları.</li>
+        </ul>
+    </section>
+
+    <!-- SECTION: Misyon Vizyon Değerler -->
+    <section class="section" id="misyon-vizyon">
+        <h3><i class="fas fa-bullseye icon"></i> Misyon, Vizyon ve Değerler</h3>
+        <h5>Misyon</h5>
+        <p>Modern, estetik ve sürdürülebilir yapılar inşa ederek müşterilerimize konforlu, güvenli ve enerji-verimli yaşam alanları sağlamaktır.</p>
+        <h5>Vizyon</h5>
+        <p>Türkiye’nin önde gelen, güvenilir ve yenilikçi inşaat firmalarından biri olmak; uluslararası projelerde rekabet edebilecek bir marka değeri yaratmak.</p>
+        <h5>Temel Değerler</h5>
+        <ul>
+            <li>Güvenilirlik</li>
+            <li>Dürüstlük</li>
+            <li>Yenilikçilik</li>
+            <li>Kalite</li>
+            <li>Sürdürülebilirlik</li>
+            <li>Müşteri Memnuniyeti</li>
+        </ul>
+    </section>
+
+    <!-- SECTION: Hizmetler (detaylı bölümler) -->
+    <section class="section" id="hizmetler">
+        <h3><i class="bi bi-gear icon"></i> Hizmetlerimiz</h3>
+        <p>Her projeye özel planlama, uygulama ve teslimat süreçleri yürütürüz. Aşağıda başlıca hizmet alanlarımız yer almaktadır:</p>
+        <div class="accordion" id="servicesAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Konut İnşaatları
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#servicesAccordion">
+                    <div class="accordion-body">
+                        Tek katlı evlerden yüksek kaliteli rezidanslara kadar; mimari tasarım, mühendislik, şantiye yönetimi ve anahtar teslim projeler sunuyoruz. Enerji verimliliği, akıllı ev entegrasyonları ve estetik tasarım önceliklerimizdendir.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Yenileme ve Tadilat
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#servicesAccordion">
+                    <div class="accordion-body">
+                        Yapı yenileme, iç mekan dönüşüm, çatı onarımları, deprem güçlendirmeleri ve enerji verimliliği iyileştirmeleri gibi konularda kapsamlı hizmet veriyoruz.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Endüstriyel ve Ticari Yapılar
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#servicesAccordion">
+                    <div class="accordion-body">
+                        Fabrika, depo, lojistik alanlar ve ticari binalar için tasarım ve uygulama hizmetleri sunuyoruz. İşlevsellik, verimlilik ve güvenlik ilkelerimiz doğrultusunda yapı çözümleri geliştiriyoruz.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Teknik Yetkinlikler -->
+    <section class="section" id="teknik">
+        <h3><i class="fas fa-cogs icon"></i> Teknik Yetkinliklerimiz</h3>
+        <p>Güçlü mühendislik kadromuz ve modern ekipmanlarımızla projelerin her aşamasını yüksek kaliteyle yönetiyoruz. Başlıca teknik yetkinliklerimiz:</p>
+        <ul>
+            <li>BIM &amp; Revit tabanlı proje yönetimi</li>
+            <li>Statik ve dinamik analizler</li>
+            <li>Isı, su, ses yalıtım testleri</li>
+            <li>Akıllı bina entegrasyonları</li>
+            <li>Deprem performans ve güçlendirme uygulamaları</li>
+        </ul>
+    </section>
+
+    <!-- SECTION: Kalite ve Güvenlik -->
+    <section class="section" id="kalite-guvenlik">
+        <h3><i class="fas fa-shield-alt icon"></i> Kalite Yönetimi ve İş Güvenliği</h3>
+        <p>ISO 9001, ISO 14001 ve ISO 45001 standartlarına uygun iş süreçleri ile kalite ve güvenliği garanti ediyoruz. Her projede detaylı kalite kontrol planı ve iş güvenliği protokolleri uygulanır.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <h6><i class="fas fa-check icon"></i> Kalite Kontrol</h6>
+                <ol>
+                    <li>Malzeme kabul testleri</li>
+                    <li>Saha içi numune ve testler</li>
+                    <li>Dış bağımsız denetimler</li>
+                </ol>
+            </div>
+            <div class="col-md-6">
+                <h6><i class="fas fa-hard-hat icon"></i> İş Güvenliği</h6>
+                <ul>
+                    <li>Risk değerlendirmesi</li>
+                    <li>Kişisel koruyucu ekipman kullanımı</li>
+                    <li>Periyodik iş güvenliği eğitimleri</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Sürdürülebilirlik -->
+    <section class="section" id="surdurulebilirlik">
+        <h3><i class="fas fa-seedling icon"></i> Sürdürülebilirlik</h3>
+        <p>Geleceğe yönelik sorumluluklarımızın bilincindeyiz. Tüm projelerimizde enerji verimliliği, geri dönüştürülebilir malzemeler ve yeşil alan planlamasını ön planda tutuyoruz.</p>
+        <div class="row mt-3">
+            <div class="col-md-4 text-center">
+                <i class="fas fa-solar-panel fa-2x icon"></i>
+                <h6>Yenilenebilir Enerji</h6>
+                <p>Güneş panelleri entegrasyonu ve enerji tasarrufu çözümleri.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-recycle fa-2x icon"></i>
+                <h6>Atık Yönetimi</h6>
+                <p>Şantiyelerde atık ayrıştırma ve geri dönüşüm uygulamaları.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-water fa-2x icon"></i>
+                <h6>Su Yönetimi</h6>
+                <p>Gri su geri dönüşüm ve su tasarruflu peyzaj sistemleri.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Projeler Tablosu -->
+    <section class="section" id="projeler">
+        <h3><i class="bi bi-kanban icon"></i> Öne Çıkan Projelerimiz</h3>
+        <p>Aşağıda seçilmiş bazı projelerimizin özet tablolarını ve kısa açıklamalarını bulabilirsiniz.</p>
+        <div class="table-responsive">
+            <table class="table table-striped projects-table">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Proje Adı</th>
+                        <th>Tür</th>
+                        <th>Lokasyon</th>
+                        <th>Yıl</th>
+                        <th>Durum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rüya Konakları Rezidans</td>
+                        <td>Rezidans</td>
+                        <td>İzmir</td>
+                        <td>2022</td>
+                        <td>Teslim Edildi</td>
+                    </tr>
+                    <tr>
+                        <td>Ordu Sahil Lüks Rezidans</td>
+                        <td>Rezidans</td>
+                        <td>Ordu</td>
+                        <td>2023</td>
+                        <td>Tamamlandı</td>
+                    </tr>
+                    <tr>
+                        <td>Antalya Tatil Köyü Yapım</td>
+                        <td>Turizm</td>
+                        <td>Antalya</td>
+                        <td>2024</td>
+                        <td>İnşaat Devam Ediyor</td>
+                    </tr>
+                    <tr>
+                        <td>Sanayi Üssü Production Site</td>
+                        <td>Endüstriyel</td>
+                        <td>Bursa</td>
+                        <td>2021</td>
+                        <td>Teslim Edildi</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- SECTION: Galeri -->
+    <section class="section" id="galeri">
+        <h3><i class="bi bi-images icon"></i> Galeri</h3>
+        <p>Projelerimizden görseller – fikir vermesi açısından gerçek çekimler ve renderlar kullanıyoruz.</p>
+        <div class="row g-3 gallery">
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="İnşaat 1">
+            </div>
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="İnşaat 2">
+            </div>
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="İnşaat 3">
+            </div>
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="İnşaat 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: İnsan Kaynakları -->
+    <section class="section" id="insan-kaynaklari">
+        <h3><i class="fas fa-users icon"></i> İnsan Kaynakları ve Kurum Kültürü</h3>
+        <p>Çalışanlarımız, kurumumuzun kalbidir. Deneyimli mühendislerimiz, sertifikalı teknikerlerimiz ve profesyonel saha ekiplerimiz ile güvenilir projeler üretiriz. İstihdam politikamız adil, şeffaf ve liyakat esaslıdır. Her yıl düzenli eğitim programları, iş güvenliği seminerleri ve kariyer geliştirme atölyeleri düzenlemekteyiz.</p>
+    </section>
+
+    <!-- SECTION: Sosyal Sorumluluk -->
+    <section class="section" id="sosyal-sorumluluk">
+        <h3><i class="fas fa-hand-holding-heart icon"></i> Sosyal Sorumluluk</h3>
+        <p>Topluma değer katan projeler hayata geçiriyoruz. Eğitim destekleri, afet bilinci projeleri, bölgesel kalkınma programları ve çevre koruma çalışmaları başlıca önceliklerimizdendir.</p>
+    </section>
+
+    <!-- SECTION: Gelecek Planları -->
+    <section class="section" id="gelecek">
+        <h3><i class="fas fa-rocket icon"></i> Gelecek Vizyonu ve Stratejilerimiz</h3>
+        <p>Önümüzdeki dönemde hedeflerimiz arasında:</p>
+        <ul>
+            <li>Akıllı ve sürdürülebilir konut projelerine yatırım</li>
+            <li>BIM süreçleri ve dijital dönüşümün tüm projelerde tam entegrasyonu</li>
+            <li>Uluslararası pazarlara açılma</li>
+            <li>Karbon ayak izi azaltma ve yeşil bina standartlarına tam uyum</li>
+        </ul>
+    </section>
+
+    <!-- SECTION: İletişim ve Çağrı -->
+    <section class="section" id="iletisim">
+        <h3><i class="bi bi-telephone icon"></i> İletişim</h3>
+        <p>Projelerimiz, teklifler ve işbirlikleri için bizimle iletişime geçebilirsiniz:</p>
+        <div class="row">
+            <div class="col-md-6">
+                <p><i class="fas fa-map-marker-alt icon"></i> Adres: Örnek Mah. İnşaat Cad. No:10, İstanbul</p>
+                <p><i class="fas fa-phone icon"></i> Telefon: +90 (212) 000 00 00</p>
+                <p><i class="fas fa-envelope icon"></i> E-posta: info@ilyasinsaat.com</p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>Çalışma Saatleri:</strong></p>
+                <p>Pazartesi - Cuma: 09:00 - 18:00</p>
+                <p>Cumartesi: 09:00 - 13:00</p>
+                <p>Pazar: Kapalı</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Ekler ve Belgeler (örnek tablo ve indirme) -->
+    <section class="section" id="ekler">
+        <h3><i class="fas fa-file-contract icon"></i> Ekler &amp; Belgeler</h3>
+        <p>Aşağıda şirketimizle ilgili bazı belgeler ve örnek şablonlar bulunmaktadır. (PDF, sertifika ve raporlar kurumsal intranet üzerinde sağlanır.)</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">ISO Sertifikaları</h6>
+                        <p class="card-text">ISO 9001, ISO 14001, ISO 45001 sertifika örnekleri.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary">İndir (PDF)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Proje Teslimat Şablonu</h6>
+                        <p class="card-text">Projelerin teslimatında kullanılan kontrol listesi ve şablon.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary">İndir (DOCX)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Sıkça Sorulan Sorular -->
+    <section class="section" id="sss">
+        <h3><i class="fas fa-question-circle icon"></i> Sıkça Sorulan Sorular (SSS)</h3>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false" aria-controls="faqCollapse1">İhale süreçleriniz nasıl işler?</button>
+                </h2>
+                <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">Tüm ihale süreçleri şeffaf bir şekilde gerçekleştirilir. Teknik şartname, maliyet hesaplaması, süre planlaması ve kalite güvence kriterleri teklif kapsamında net olarak paylaşılır.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">Satış sonrası destek sağlıyor musunuz?</button>
+                </h2>
+                <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">Evet. Anahtar teslim projelerde belirli bir garanti süresi ve bununla ilişkili bakım-taahhüt hizmetleri sunuyoruz.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+	<div>
+<!-- Footer -->
+<div class="footer">
+    <p>&copy; 2025 İlyas İnşaat A.Ş. | Tüm hakları saklıdır.</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
